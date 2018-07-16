@@ -1,0 +1,24 @@
+.btn-group {
+    float: right;
+    padding-right: 15px
+}
+.form-inline {
+    float: right;
+}
+.create-btn {
+    float: right;
+    padding-right: 15px;
+}
+.thead{
+    background-color: #686868;
+    color: white;
+}
+
+.table-hover tbody tr:hover td {
+    background:#D3D3D3;
+}
+.jumbotron {
+    background-color:skyblue !important; 
+}
+
+

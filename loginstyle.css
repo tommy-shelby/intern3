@@ -1,0 +1,44 @@
+
+.container-fluid {
+  width: 100%;  
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background: #686868;
+
+}
+
+.wrap-container {
+  width: 500px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding: 70px;
+}
+h1 {
+  
+  font-size: 30px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  width: 100%;
+  display: block;
+  padding-bottom: 30px;
+}
+button {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 20px;
+  background-color: royalblue;
+  color: white;
+  border-radius: 20px;
+}
+
+
+

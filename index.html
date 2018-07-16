@@ -4,11 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="indexstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Home</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <h2>Testing git using vs code</h2>
-    <h3>Another test</h3>
+  
+    <div class="btn-group">
+    
+        <button type="button" class="btn btn-primary" >UserName</button>
+        <button type="button" class="btn btn-primary dropdown-toggle px-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="login.html">Logout</a>
+
+        </div>
+    </div>
+
+
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+      <h1>Intern Databse</h1>
+
+      <form class="form-inline mr-auto">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-primary btn-rounded btn-sm my-0" type="submit">Search</button>
+      </form>
+    </form>
+
+  </div>
+  <br>
+
+  <div class="create-btn">
+  <button type="button" class="btn btn-success btn-rounded">Create record</button>
+</div>
+<br>
+<br>
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="table-responsive">
+          <table class="table table-bordered table-hover table-striped">
+              <thead class="thead">
+                  <tr>
+                    <th style="width: 100px" >InternID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Date of Birth</th>
+                    <th>Nationality</th>
+                    <th style="width: 100px">Edit</th>
+                    <th style="width: 100px">Delete</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  
+                  <tr>
+                    <td>1</td>
+                    <td>Jolani</td>
+                    <td>Allie</td>
+                    <td></td>
+                    <td></td>
+                    <td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+                    <td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+                  </tr>
+                  <tr>
+                      <td>2</td>
+                      <td>Adrian</td>
+                      <td>Alfred</td>
+                      <td></td>
+                      <td></td>
+                      <td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+                      <td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+                    </tr>        <tr>
+                        <td>3</td>
+                        <td>Mark</td>
+                        <td>Alli</td>
+                        <td></td>
+                        <td></td>
+                        <td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+                        <td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+                      </tr>        <tr>
+                          <td>4</td>
+                          <td>Raquel</td>
+                          <td>Augustin</td>
+                          <td></td>
+                          <td></td>
+                          <td><button class="btn btn-primary btn-xs" data-title="Edit" data-toggle="modal" data-target="#edit" ><span class="glyphicon glyphicon-pencil"></span></button></p></td>
+                          <td><button class="btn btn-danger btn-xs" data-title="Delete" data-toggle="modal" data-target="#delete" ><span class="glyphicon glyphicon-trash"></span></button></p></td>
+                        </tr>
+                </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
 </body>
+
 </html>
