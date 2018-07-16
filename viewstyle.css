@@ -9,3 +9,10 @@
 h3 {
   text-align: center;
 }
+.mid-heading1 h3 {
+  float: left;
+}
+.mid-heading2 h3 {
+  float: right;
+  
+}
