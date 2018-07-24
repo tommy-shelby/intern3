@@ -9,14 +9,41 @@
 h3 {
   text-align: center;
 }
-.mid-heading1 h3 {
-  float: left;
+.left{ float:left;
 }
-.mid-heading2 h3 {
-  float: right;
-  
+
+img{
+    width: 100px;
+    margin-right: 10px;
+    
 }
-.mid-heading{
-  background-color: royalblue !important;
-  color: aliceblue;
+.navbar{
+    background-color: #21618C;
+        float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+   
 }
+.navbar > h1 {
+    display: inline-block;
+    float:none;
+    
+}
+
+ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: #21618C;
+
+    display: table;
+    margin: 0 auto;
+    color: lightgray;
+}
+ul.breadcrumb li {display: inline;}
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: white;
+    content: "/\00a0";
+}
+ul.breadcrumb li a {color: white;}
